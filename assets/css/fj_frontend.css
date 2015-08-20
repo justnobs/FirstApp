@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'typegrotesk';
+    src: url('../fonts/Typo Grotesk Thin Demo.otf');
+}
+
+@font-face {
+    font-family: 'vollkorn';
+    src: url('../fonts/Vollkorn-Regular.otf');
+}
+
+@font-face {
+    font-family: 'josefinSlab';
+    src: url('../fonts/JosefinSlab-SemiBold.otf');
+}
+.bluegreen-light { background-color: #1ABC9C !important; }
+.bluegreen-dark { background-color: #16A085 !important; }
+.green-light { background-color: #2ECC71 !important; }
+.green-dark { background-color: #27AE60 !important; }
+.blue-light { background-color: #3498DB !important; }
+.blue-dark { background-color: #2980B9 !important; }
+.violet-light { background-color: #9B59B6 !important; }
+.violet-dark { background-color: #8E44AD !important; }
+.black-light { background-color: #34495E !important; }
+.black-dark { background-color: #2C3E50 !important; }
+.orange { background-color: #F39C12 !important; }
+.orange-yellow { background-color: #F1C40F !important; }
+.orange-light { background-color: #E67E22 !important; }
+.orange-dark { background-color: #D35400 !important; }
+.red-light { background-color: #E74C3C !important; }
+.red-dark { background-color: #C0392B !important; }
+.white-light { background-color: #ECF0F1 !important; }
+.white-dark { background-color: #BDC3C7 !important; }
+.gray-light { background-color: #95A5A6 !important; }
+.gray-dark { background-color: #7F8C8D !important; }
+
+.font-white { color: #fff !important; }
+
+/* Header */
+.title-img { width: 150px; }
+
+/* Body */
+.body-content { margin-top: 20px; text-align: justify; text-transform:  }
+
+/* Content */
+.title-description { }
+.title-description p { font-style: italic; text-align: justify; }
+.title-description span { font-size: 25px; padding: 5px 10px; }
+.title-description span:nth-child(1):hover { color: #3b5998; }
+.title-description span:nth-child(2):hover { color: #00aced; }
+.title-description span:nth-child(3):hover { color: #dd4b39; }
+.title-description span:nth-child(4):hover { color: #517fa4; }
+.title-description span:nth-child(5):hover { color: #53DBED; }
+
+.details { margin-top: 20px; }
+.details:hover { cursor: default; }
+.details .container div{ margin-bottom: 10px; display: block; }
+.details > div { margin-top: 20px; }
+.details > .right{ padding: 20px; }
+.details-img { max-width: 100%; max-height: 250px; }
+.details-img:hover { box-shadow: 8px 8px 5px #888888; }
+.details .contact-form { text-align: center; margin-bottom: 20px;}
+.details .contact-form input{ margin-bottom: 5px; margin-top: 5px; }
+
+/* Footer */
+footer { margin-top: 20px; }
+footer .container { margin-bottom: 30px; }
+footer .container section { display: inline-block; }
+footer .container section a{ display: inline-block; margin: 2px 10px;}
+footer .container section a:hover { cursor: pointer; text-decoration: none;}
+footer .container section:nth-child(2) { float: right; }
+
+.logo img {
+    transition: all 0.2s ease-out 0s;
+}
+
+.logo img:hover {
+    transform: rotate(-10deg);
+}
+
+.navbar {
+  height: 80px;
+  padding-bottom: 8px;
+  border-bottom: #edeeee 1px solid;
+}
+
+.navbar-nav .logo {
+  margin-top: 15px;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: justify;
+    padding: 5px;
+}
+
+.navbar-right {
+  margin-right: 90px;
+  margin-top: 25px;
+}
+
+.navbar-right li a:hover,
+.navbar-right li a:focus {
+    color: #A5E8E8 !important;
+}
+
+.navbar-right li i{
+    margin-right:7px;
+}
+
+.logo {
+  width: 120px;
+  margin-top:5px;
+  margin-left: 99px;
+}
+
+.box {
+  padding: 10px 10px 1px 10px;
+}
+
+.shortcut-icon {
+  width: 20px;
+  height: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
